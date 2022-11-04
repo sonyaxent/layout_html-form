@@ -14,7 +14,6 @@
   </head>
 
   <body>
-    <h1>HTML Form</h1>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset>
         <legend>
@@ -71,21 +70,21 @@
       </fieldset>
       <fieldset>
         <legend>An interesting fact about you!</legend>
-        <div class="form-field">
-          Do you love cats?
-          <label>
-            <input type="radio" name="cats?"
-            value="yes"
-            >
-            Yes
-          </label>
-          <label>
-            <input type="radio" name="cats?"
-        value="no"
-            >
-            No
-          </label>
-        </div>
+        <label for="cats?">
+            Do you love cats?
+        </label>
+        <label>
+          <input type="radio" name="cats?"
+        value="yes" id="cats?"
+          >
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="cats?"
+            value="no"
+          >
+            Nooo
+        </label><br>
         <label for="color">
           What is your favourite color?
         </label>
@@ -115,9 +114,11 @@
       </fieldset>
       <fieldset>
         <legend>Additional info:</legend>
-        <label for="comments">Comments:</label>
-        <textarea name="comments" id="comments"
-        cols="10" rows="2"
+        <label for="comments"> Comments: </label>
+        <textarea name="comments"
+         id="comments"
+         cols="15"
+         rows="2"
         autocomplete="off">
         </textarea><br>
         <label for="recommend">Would you recommend us?</label>
