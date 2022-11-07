@@ -1,8 +1,7 @@
 /* stylelint-disable CssSyntaxError */
 /* styles go here */
 .form-group {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 2px;
 }
 
 .form-group:first-child {
