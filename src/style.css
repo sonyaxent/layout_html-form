@@ -1,24 +1,11 @@
-/* stylelint-disable CssSyntaxError */
-/* styles go here */
-.form-group {
-  margin: 20px 2px;
-}
-
-.form-group:first-child {
-  margin-top: 0;
-}
-
-.form-group:last-child {
-  margin-bottom: 0;
-}
 
 .form-field {
   display: block;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
-.form-field:nth-child(2) {
-  margin-top: 0;
+.form-group {
+  margin-bottom: 20px;
 }
 
 .form-field:last-child {
